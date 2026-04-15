@@ -2,10 +2,6 @@
 
 > AI-powered learning assistant for students — Résumés, Quiz, Chat intelligent et suivi de progression.
 
-![Dashboard](assets/images/screen/Accueil%20.png)
-
----
-
 ## 🚀 Overview
 
 **SmartStudy AI** est une application mobile intelligente qui aide les étudiants à apprendre efficacement grâce à l’intelligence artificielle.
@@ -72,10 +68,24 @@ Elle permet de transformer des cours en :
 
 ---
 
-## 🗂️ Assets
+## 📱 Screenshots
 
-Images utilisées :
+| Dashboard | Bibliothèque |
+|----------|-------------|
+|![Dashboard](assets/images/screen/Accueil%20.png) | ![2](assets/images/screen/Biblioth%C3%A8que.png) |
+
+| Résumé IA | Quiz IA |
+|----------|---------|
+| ![3](assets/images/screen/R%C3%A9sum%C3%A9%20IA.png) | ![4](assets/images/screen/Quiz%20IA.png) |
+
+---
+
+## 🗂️ Assets
 
 ```bash
 assets/images/screen/
- └── Accueil.png
+ ├── Accueil.png
+ ├── Biblioth%C3%A8que.png
+ ├── R%C3%A9sum%C3%A9%20IA.png
+ ├── Quiz%20IA.png
+ └── smartstudy_logo.png
