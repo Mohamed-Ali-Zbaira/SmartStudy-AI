@@ -1,0 +1,71 @@
+name: smart_study
+description: "SmartStudy AI - Assistant Intelligent d'Apprentissage"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.0
+  google_sign_in: ^6.2.1
+  image_picker: ^1.0.7
+  http: ^1.2.1
+  file_picker: ^8.0.0
+  flutter_pdf_text: ^0.9.0
+  path: ^1.9.0
+  path_provider: ^2.1.0
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  google_mlkit_text_recognition: ^0.15.1
+  syncfusion_flutter_pdf: ^33.1.47
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.0
+
+# ════════════════════════════════════════════════════════════
+#  CONFIGURATION SPLASH SCREEN NATIF
+# ════════════════════════════════════════════════════════════
+flutter_native_splash:
+  # Fond transparent pour laisser apparaître le splash Flutter
+  color: "1E3A5F"
+
+  # Image du logo centrée
+  image: assets/images/smartstudy_logo.png
+  image_dark: assets/images/smartstudy_logo.png
+
+  # Centrage de l'image
+  android_gravity: center
+  ios_content_mode: center
+
+  # Plein écran
+  fullscreen: true
+
+  # Désactiver le splash sur le web
+  web: false
+
+  # Options Android
+  android_12:
+    image: assets/images/smartstudy_logo.png
+    icon_background_color: "1E3A5F"
+    image_dark: assets/images/smartstudy_logo.png
+    icon_background_color_dark: "1E3A5F"
+
+  # Options iOS
+  ios_swift: true
+
+# ════════════════════════════════════════════════════════════
+#  CONFIGURATION FLUTTER
+# ════════════════════════════════════════════════════════════
+flutter:
+  uses-material-design: true
+
+  # Assets de l'application
+  assets:
+    - assets/images/smartstudy_logo.png
