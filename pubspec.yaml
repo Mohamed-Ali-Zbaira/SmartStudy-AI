@@ -1,0 +1,65 @@
+name: smart_study
+description: "SmartStudy AI - Assistant Intelligent d'Apprentissage"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.0
+  google_sign_in: ^6.2.1
+  image_picker: ^1.0.7
+  http: ^1.2.1
+  file_picker: ^8.0.0
+  flutter_pdf_text: ^0.9.0
+  path: ^1.9.0
+  path_provider: ^2.1.0
+  shared_preferences: ^2.5.5
+  speech_to_text: ^7.3.0
+  cupertino_icons: ^1.0.8
+  syncfusion_flutter_pdf: ^33.1.47
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.13.1
+
+# ════════════════════════════════════════════════════════════
+#  SPLASH SCREEN NATIF
+# ════════════════════════════════════════════════════════════
+flutter_native_splash:
+  color: "1E3A5F"
+  image: assets/images/smartstudy_logo.png
+  image_dark: assets/images/smartstudy_logo.png
+  android_gravity: center
+  ios_content_mode: center
+  fullscreen: true
+  web: false
+  android_12:
+    image: assets/images/smartstudy_logo.png
+    icon_background_color: "1E3A5F"
+    image_dark: assets/images/smartstudy_logo.png
+    icon_background_color_dark: "1E3A5F"
+
+# ════════════════════════════════════════════════════════════
+#  ICÔNES DE L'APPLICATION
+# ════════════════════════════════════════════════════════════
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/smartstudy_logo.png"
+  adaptive_icon_background: "#1E3A5F"
+  adaptive_icon_foreground: "assets/images/smartstudy_logo.png"
+
+# ════════════════════════════════════════════════════════════
+#  CONFIGURATION FLUTTER
+# ════════════════════════════════════════════════════════════
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/smartstudy_logo.png
